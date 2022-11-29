@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'qwer12'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F07D188DB527470BB42978ED9E0AE296 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AACB1BF52CB44A14AEF324295956EA2D }}
