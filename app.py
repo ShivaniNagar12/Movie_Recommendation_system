@@ -73,7 +73,7 @@ movies_dict = pickle.load(open('movie_dict.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
 #write a import state for similatrity.pjl
-similarity= pickle.load(open('similarity.pkl','rb'))
+similarity= pickle.load(open('https://drive.google.com/file/d/1FPFavI_9RCp17iHyAZW7Go1jSnasOQc7/view?usp=share_link','rb'))
 
 st.title('Movie Recommendation System')
 selected_movie_name = st.selectbox(
